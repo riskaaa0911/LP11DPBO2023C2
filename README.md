@@ -3,10 +3,10 @@
 Saya Riska Nurohmah [2109103] mengerjakan Latihan Praktikum 11 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ## Deskripsi Soal
-buatlah fitur CRUD untuk tabel yang sudah disediakan, dan tampilkan 2 kolom baru yaitu kolom email dan telepon yang sudah ada pada database.
+Buatlah fitur CRUD untuk tabel yang sudah disediakan, dan tampilkan 2 kolom baru yaitu kolom email dan telepon yang sudah ada pada database.
 
 ## Desain dan Alur Program
-
+Program ini menggunakan konsep MVP(Model, View, Presenter). Pada program terdapat fitur untuk menampilkan data pasien dan menghapus data pasien yang diinginkan, kemudian disediakan juga form untuk menambah dan mengedit data pasien.
 
 ## Dokumentasi
 ### Screenshot
