@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DATA_TITLE</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  </head>
+  <style>
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: black;
+    }
+  </style>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">WIW</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    <!-- navbar end -->
+
+    <!-- content start -->
+    <div class="container-fluid mt-5">
+      <div class="card shadow mx-auto px-5" style="width: 80%">
+        <div class="card-body">
+          <h3 class="card-title text-center mb-5 mt-3">DATA_TITLE</h3>
+          <form action="#" method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+              <label for="nim" class="form-label">NIK</label>
+              <input type="text" class="form-control" id="nik" name="nik" value="DATA_NIK" placeholder="Masukan NIK" required />
+            </div>
+            <div class="mb-3">
+                <label for="nim" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="nama" name="nama" value="DATA_NAMA" placeholder="Masukan Nama" required />
+              </div>
+              <div class="mb-3">
+                <label for="nim" class="form-label">Tempat Lahir</label>
+                <input type="text" class="form-control" id="tempat" name="tempat" value="DATA_TEMPAT" placeholder="Masukan Tempat" required />
+              </div>
+              <div class="mb-3">
+                <label for="tl" class="form-label">Tanggal Lahir</label>
+                <input type="date" class="form-control" id="tl" name="tl" placeholder="Masukan Tanggal Lahir" value="DATA_TL" required />
+              </div>
+            <div class="mb-3">
+                <div>
+                  <label for="gender" class="form-label">Jenis Kelamin</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="Laki-laki" DATA_LK />
+                  <label class="form-check-label" for="gender">Laki-laki</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="Perempuan" DATA_PR />
+                  <label class="form-check-label" for="gender">Perempuan</label>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="nim" class="form-label">Email</label>
+                <input type="text" class="form-control" id="email" name="email" value="DATA_EMAIL" placeholder="Masukan Email" required />
+              </div>
+              <div class="mb-3">
+                <label for="nim" class="form-label">Telepon</label>
+                <input type="text" class="form-control" id="telp" name="telp" value="DATA_TELP" placeholder="Masukan Phone" required />
+              </div>
+            <button type="submit" class="btn btn-primary" name="btn-submit" id="btn-submit">Submit</button>
+            <button type="reset" class="btn btn-secondary" name="btn-reset" id="btn-reset">Reset</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- content end -->
+
+    <!-- bootstrap bundle js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
